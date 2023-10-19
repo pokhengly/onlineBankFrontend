@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+/* Main Body Styling */
+body{
+    background-color: rgb(211, 217, 226);
+}
+
+/* <!--Main Page Header--> */
+.main-age-header{
+    padding: 10px 0;
+}
+
+/*<!--Company Name-->*/
+.main-page-header .company-name{
+    font-weight: 600;
+    color: white;
+}
+
+/*<!--Navigation-->*/
+.navigation{
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.navigation li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+}
