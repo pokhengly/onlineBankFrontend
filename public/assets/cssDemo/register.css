@@ -10,23 +10,25 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .card{
     font-family: "Times New Roman", serif;
 }
 
-.card .form_control{
+.card .form-control{
     margin: 10px 0;
     box-shadow: 0 3px 6px rgb(0, 14, 53);
 }
+
 .card .card-title{
     color: white;
 }
+
 .card button{
-    background-color: #ff253a;
-    border: 1px solid #543800;
+    background-color: #FF4E00;
+    border: 1px solid #8B2B00;
     box-shadow: 0 3px 6px rgb(0, 14, 53);
     color: brown;
     width: 200px;
     margin: 10px 0;
-
 }
