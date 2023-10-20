@@ -13,8 +13,8 @@ body{
 
 /* <!-- Card : Sample Text --> */
 #sample-text-card{
-    margin: 0px 100px;
-    font-family: Comfortaa;
+    margin: 0 100px;
+    font-family: Comfortaa, serif;
     color: white;
 }
 
@@ -43,12 +43,12 @@ body{
     border: 1px solid #533800;
 }
 .card{
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
 }
 
 .card .form_control{
-    margin: 10px 0px;
-    box-shadow: 0px 3px 6px rgb(0, 14, 53);
+    margin: 10px 0;
+    box-shadow: 0 3px 6px rgb(0, 14, 53);
 }
 .card .card-title{
     color: white;
@@ -56,9 +56,9 @@ body{
 .card button{
      background-color: #ff253a;
      border: 1px solid #543800;
-    box-shadow: 0px 3px 6px rgb(0, 14, 53);
+    box-shadow: 0 3px 6px rgb(0, 14, 53);
     color: brown;
     width: 200px;
-    margin: 10px 0px;
+    margin: 10px 0;
 
  }
