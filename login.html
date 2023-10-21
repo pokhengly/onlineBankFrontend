@@ -2,61 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="public/assets/cssDemo/login.css">
-    <link rel="stylesheet" href="resources/css/bootstrap.css">
-    <link rel="stylesheet" href="resources/fontawesome/css/all.css">
-    <title>Login</title>
-
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="resources/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/fontawesome/css/all.css" rel="stylesheet">
+    <link href="public/assets/cssDemo/login.css" rel="stylesheet">
+    <title>login</title>
+</head>
 <body class="d-flex align-items-center justify-content-center">
-<!-- Card: login Form Card -->
-<div class="card login-form-card col-6 bg-transparent border-0">
+<!-- Card: Login Form Card -->
+<div class="card login-form-card col-3 bg-transparent border-0">
+
     <!-- Card Body -->
-    <div class="card-body ">
+    <div class="card-body">
         <!-- Form Header -->
-        <h1 class="form-header card-title mb-3 text-warning">
-            <i class="fa fa-user-circle"></i> Login
+        <h1 class="form-header card-title mb-3 text-white">
+            <i class="fa fa-edit"></i> Login
         </h1>
         <!-- End of form Header -->
-        <!-- login Form -->
-        <form action="" class="login-form">
-            <!-- Form Group Email -->
-            <div class="form-group">
-                <label >
-                    <input type="email" name="email" class="form_control form-control-lg " placeholder="Enter Email"/>
-                </label>
-            </div>
-            <!-- End of Form Group Email -->
-            <!-- Form Group Password-->
-            <div class="form-group  mt-3">
-                <label>
-                    <input type="password" name="password" class="form_control form-control-lg" placeholder="Enter Password"/>
-                </label>
-            </div>
-            <!-- End of Form Group Password-->
+
+        <!-- Registration Form -->
+        <form action="" class="reg-form">
             <!-- Form Group -->
-            <div class="form-group  mt-3 ">
-                <button class="btn bg-warning">Login</button>
+            <div class="form-group col">
+                <input class="form-control form-control-lg" name="email" placeholder="Enter Email" type="email"/>
+            </div>
+            <!-- End of Form Group -->
+            <!-- Row -->
+            <div class="row">
+                <!-- Form Group -->
+                <div class="form-group col mt-3">
+                    <input class="form-control form-control-lg" name="password" placeholder="Enter Password" type="password"/>
+                </div>
+                <!-- End of Form Group -->
+            </div>
+            <!-- End of Row -->
+            <!-- Form Group -->
+            <div class="form-group col ">
+                <button class="btn btn-lg bg-warning mt-3">Login</button>
             </div>
             <!-- End of Form Group -->
         </form>
-        <!-- End of login Form -->
+        <!-- End of Registration Form -->
         <!-- Card Text -->
         <p class="card-text text-white my-2">
-            Don't have an account? <span class="ms-2 text-warning"> <a href="register.html" class="btn bt-sm text-warning"> Sign Up</a></span>
+            Don't have an account? <span class="ms-2 text-warning"><a href="register.html" class="btn bt-sm text-warning">Sign Up</a></span>
         </p>
         <!-- Card Text -->
         <!-- back Button To Landing Page -->
         <small class="text-warning">
-            <i class="fa fa-arrow-alt-circle-left "></i><a href="index.html" class="btn btn-sm text-warning">Back</a>
+            <i class="fa fa-arrow-alt-circle-left"></i>
+            <a class="btn btn-sm text-warning" href="index.html">Back</a>
         </small>
         <!-- End of back Button To Landing Page -->
     </div>
     <!-- End of Card Body -->
 </div>
-<!-- End of Card:login form Card -->
-
+<!-- End of Card: Sample Text -->
 </body>
-</html>'''''
+</html>
