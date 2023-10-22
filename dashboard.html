@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="public/assets/cssDemo/dashboard.css">
-    <link rel="stylesheet" href="resources/css/bootstrap.css">
-    <link rel="stylesheet" href="resources/fontawesome/css/all.css">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="resources/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/fontawesome/css/all.css" rel="stylesheet">
+    <link href="public/assets/cssDemo/dashboard.css" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
@@ -18,24 +18,73 @@
         <!--Company Name-->
         <div class="company-name">
             Easy-way Bank
-
-            <h1> Hello School</h1>
-            <p>hgfgapkjdpaw</p>
         </div>
         <!--Company Name-->
 
         <!--Navigation-->
-        <div class="navigation">
+        <nav class="navigation">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Payment History</a></li>
             <li><a href="#">Transaction History</a></li>
-        </div>
-
+        </nav>
         <!--End of Navigation-->
+
+        <!--Display Name-->
+        <div class="display-name ms-auto text-white">
+            <i class="fa fa-circle text-success ms-2 me-2"></i>Welcome: <span>John Doe</span>
+        </div>
+        <!--End of Display Name-->
+
+        <!--Log Out Button-->
+        <a href="" class="btn btn-sm text-white ms-2">
+            <i class="fas fa-sign-out-alt" aria-hidden="true"></i>Sign Out
+        </a>
+        <!--End ofLog Out Button-->
     </div>
     <!--End of Container-->
 </header>
 <!--Main Page Header-->
+
+<!--Container-->
+<div class="container">
+    <!--Default Offcanvas-->
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Button with data-bs-target
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End of Default Offcanvas -->
+</div>
+<!--End of Container-->
+
+<!--mkdsfnpap-->
+<!--kffnsofa nvbsjdnfacou-->
+
+
+<script src="/resources/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>

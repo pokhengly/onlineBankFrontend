@@ -1,38 +1,42 @@
-*{
+* {
     box-sizing: border-box;
-    font-family: Comfortaa;
+    font-family: Comfortaa, serif;
 }
 
 /* Main Body Styling */
-body{
+body {
     background-color: rgb(211, 217, 226);
 }
 
 /* <!--Main Page Header--> */
-.main-age-header{
+.main-age-header {
     padding: 10px 0;
 }
 
 /*<!--Company Name-->*/
-.main-page-header .company-name{
+.main-page-header .company-name {
     font-weight: 600;
     color: white;
 }
 
 /*<!--Navigation-->*/
-.navigation{
-    border: 1px solid white;
+.navigation {
+    /*border: 1px solid white;*/
     margin-left: 20px;
 }
 
-.navigation li{
+.navigation li {
     display: inline-block;
     list-style-type: none;
+    margin: 0 15px;
 }
 
-.navigation li a{
+.navigation li a {
     color: white;
     text-decoration: none;
 }
 
-/*kjASDIGD*/
+/* <!--Display Name--> */
+.display-name{
+    font-weight: 600;
+}
