@@ -40,3 +40,51 @@ body {
 .display-name{
     font-weight: 600;
 }
+
+/* Transact Button*/
+#transact-btn{
+    background-color: #FFB114;
+    border: 1px solid #543800;
+}
+
+/* Add Account Button */
+#add-account-btn{
+    background-color: #FF4E00;
+    border: 1px solid #8B2B00;
+    color: white;
+}
+
+/* offcasnvas Background */
+.offcanvas{
+    height: 100vh;
+    background-image: url("../images/offcanvas_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.transact-btn{
+    background-color: #FF4E00;
+    border: 1px solid #8B2B00;
+    color: white;
+}
+
+/*  <!--Card: Payment Card--> */
+.payment-card{
+    display: none;
+}
+
+/*  <!--Card: Transfer Card--> */
+.transfer-card{
+    display: none;
+}
+
+/*  <!--Card: Deposit Card--> */
+.deposit-card{
+    display: none;
+}
+
+/*  <!--Card: Withdraw Card--> */
+.withdraw-card{
+    display: none;
+}
