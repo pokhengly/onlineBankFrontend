@@ -10,9 +10,55 @@
     <link href="public/assets/cssDemo/login.css" rel="stylesheet">
     <title>Login</title>
 </head>
-<body>
-<h1>Hello</h1>
-<p>Dnejhfk</p>
+<body class="d-flex align-items-center justify-content-center">
+<!-- Card: Login Form Card -->
+<div class="card login-form-card col-3 bg-transparent border-0">
 
+    <!-- Card Body -->
+    <div class="card-body">
+        <!-- Form Header -->
+        <h1 class="form-header card-title mb-3 text-white">
+            <i class="fa fa-edit"></i> Login
+        </h1>
+        <!-- End of form Header -->
+
+        <!-- Registration Form -->
+        <form action="" class="reg-form">
+            <!-- Form Group -->
+            <div class="form-group col">
+                <input class="form-control form-control-lg" name="email" placeholder="Enter Email" type="email"/>
+            </div>
+            <!-- End of Form Group -->
+            <!-- Row -->
+            <div class="row">
+                <!-- Form Group -->
+                <div class="form-group col mt-3">
+                    <input class="form-control form-control-lg" name="password" placeholder="Enter Password" type="password"/>
+                </div>
+                <!-- End of Form Group -->
+            </div>
+            <!-- End of Row -->
+            <!-- Form Group -->
+            <div class="form-group col ">
+                <button class="btn btn-lg bg-warning mt-3">Login</button>
+            </div>
+            <!-- End of Form Group -->
+        </form>
+        <!-- End of Registration Form -->
+        <!-- Card Text -->
+        <p class="card-text text-white my-2">
+            Don't have an account? <span class="ms-2 text-warning"><a href="register.html" class="btn bt-sm text-warning">Sign Up</a></span>
+        </p>
+        <!-- Card Text -->
+        <!-- back Button To Landing Page -->
+        <small class="text-warning">
+            <i class="fa fa-arrow-alt-circle-left"></i>
+            <a class="btn btn-sm text-warning" href="index.html">Back</a>
+        </small>
+        <!-- End of back Button To Landing Page -->
+    </div>
+    <!-- End of Card Body -->
+</div>
+<!-- End of Card: Sample Text -->
 </body>
 </html>
