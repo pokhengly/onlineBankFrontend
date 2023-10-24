@@ -1,5 +1,5 @@
 //Get Transaction Type:
-const transectType = document.querySelector("#transact-type");
+const transactType = document.querySelector("#transact-type");
 
 //Get Transaction Forms:
 const paymentCard = document.querySelector(".payment-card");
@@ -8,10 +8,10 @@ const depositCard = document.querySelector(".deposit-card");
 const withdrawCard = document.querySelector(".withdraw-card");
 
 // Check For Transaction Type Event Listener:
-transectType.addEventListener("change", () =>  {
+transactType.addEventListener("change", () => {
 
     // Check For Transaction Type and Display Form:
-    switch (transectType.value) {
+    switch (transactType.value) {
         case "payment":
             paymentCard.style.display = "block";
             paymentCard.nextElementSibling.style.display = "none";
@@ -39,6 +39,8 @@ transectType.addEventListener("change", () =>  {
             transferCard.style.display = "none";
             paymentCard.style.display = "none";
             break;
+        default:
+            paymentCard.style.display = "none";
     }
     // End of Check For Transaction Type and Display Form:
 });
