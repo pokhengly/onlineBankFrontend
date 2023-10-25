@@ -9,7 +9,6 @@ const withdrawCard = document.querySelector(".withdraw-card");
 
 // Check For Transaction Type Event Listener:
 transactType.addEventListener("change", () => {
-
     // Check For Transaction Type and Display Form:
     switch (transactType.value) {
         case "payment":
@@ -17,6 +16,7 @@ transactType.addEventListener("change", () => {
             paymentCard.nextElementSibling.style.display = "none";
             depositCard.style.display = "none";
             withdrawCard.style.display = "none";
+
             break;
 
         case "transfer":
