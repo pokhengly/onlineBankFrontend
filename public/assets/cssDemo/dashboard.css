@@ -23,12 +23,13 @@ body {
 .navigation {
     /*border: 1px solid white;*/
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .navigation li {
     display: inline-block;
     list-style-type: none;
-    margin: 0 15px;
+    margin: 10px;
 }
 
 .navigation li a {
