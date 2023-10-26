@@ -21,8 +21,11 @@ body {
     border-radius: 7px;
 }
 
-/* <!-- Company name -->
- */
+/* <--!Email MSG Header--> */
+.email-msg-header{
+    text-align: center;
+}
+/* <!-- Company name -->*/
 .company-name {
     width: 100%;
     font-size: 35px;
@@ -42,16 +45,15 @@ body {
     text-decoration: none;
     color: white;
     border-radius: 5px;
+    justify-items: center;
 }
 
-/* <!--- Copy Right Wrapper --->
- */
+/* <!--- Copy Right Wrapper ---> */
 .copy-right {
     padding: 15px;
     color: rgb(128, 128, 128);
     font-size: 14px;
     margin: 20px;
     display: flex;
-    align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
