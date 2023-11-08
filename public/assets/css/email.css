@@ -1,0 +1,59 @@
+/* dum sileang
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+}
+
+/*Main body Styling */
+body {
+    height: 100vh;
+    background-color: rgb(212, 222, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* <!--- Wrappper ---> */
+.wrapper {
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+/* <!-- Company name -->
+ */
+.company-name {
+    width: 100%;
+    font-size: 35px;
+    color: gray;
+    text-align: center;
+}
+
+/* <!--- welcome Text ---> */
+.welcome-text {
+    text-align: center;
+}
+
+/* <!---- copy right Wrapper ---> */
+.verify-account-btn {
+    padding: 15px;
+    background-color: rgb(0, 109, 252);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* <!--- Copy Right Wrapper --->
+ */
+.copy-right {
+    padding: 15px;
+    color: gray;
+    font-size: 14px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

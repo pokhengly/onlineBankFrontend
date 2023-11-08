@@ -35,11 +35,11 @@ body {
 
 .register {
     margin-right: 7px;
-    background-color: #FF4E00;
-    border: 1px solid #8B2B00;
+    background-color: #ff4e00;
+    border: 1px solid #8b2b00;
 }
 
 .login {
-    background-color: #FFB114;
+    background-color: #ffb114;
     border: 1px solid #543800;
 }
